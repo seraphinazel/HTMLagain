@@ -1,0 +1,68 @@
+body {
+	background-color: #f8f8f8;
+}
+
+.menu {
+	font-family: 'Arial', sans-serif;
+	font-size: 18px;
+	list-style-type: none;
+}
+
+.menu a,
+.merch_link {
+	color: dimgrey;
+	text-decoration: none;
+}
+
+.merch_headers {
+	color: black;
+	font-size: 18px;
+	font-weight: 400;
+	background-color: #eaeaea;
+}
+
+.merch_short_descr {
+	color: #707070;
+	font-size: 14px;
+	font-style: italic;
+	line-height: 16px;
+}
+
+.merch_full_descr {
+	color: #484343;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	text-align: left;
+}
+
+.merch_composition li {
+	color: #0f5f0f;
+	font-size: 15px;
+	font-family: 'Calibri', sans-serif;
+	line-height: 25px;
+	list-style-image: url("img/mandala.png");
+}
+
+input[type="text"],
+input[type="email"] {
+	width: 300px;
+	height: 25px;
+	color: grey;
+	font-size: 14px;
+	font-style: italic;
+}
+
+textarea {
+	width: 350px;
+	height: 150px;
+}
+
+.merch_img {
+	outline: 3px solid darkolivegreen;
+}
+
+.header_common {
+	font-family: Arial, sans-serif;
+	color: darkolivegreen;
+}
