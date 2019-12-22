@@ -6,18 +6,43 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-	<h1 class="header_common">Каталог</h1>
-	<ul class="menu">
-		<li><a href="index.html">Главная</a></li>
-		<li><a href="catalog.html">Каталог</a></li>
-		<li><a href="contacts.html">Контакты</a></li>
-	</ul>
-	<hr>
-	<a href="catalog/box1.html"><img src="img/box1.jpg" alt="подарочная коробочка1" width="200"></a><br>
-	<a class="merch_link" href="catalog/box1.html">Коробочка №1</a><br>
-	<a href="catalog/box2.html"><img src="img/box2.jpg" alt="подарочная коробочка2" width="200"></a><br>
-	<a class="merch_link" href="catalog/box2.html">Коробочка №2</a><br>
-	<hr>
-	<p>&copy; Все права защищены</p>
+	<div class="container">
+		<div class="header">
+			<div class="logo">
+				<img src="img/logo.png" alt="logo" height="100px">
+			</div>	
+			<br>
+			<h1 class="header_common">Каталог</h1>	
+			<ul class="menu">
+				<li><a href="index.html">Главная</a></li>
+				<li><a href="catalog.html">Каталог</a></li>
+				<li><a href="contacts.html">Контакты</a></li>
+			</ul>
+			<hr>
+		</div>
+		
+		<div class="main">
+			<div class="merch">
+				<a href="catalog/box1.html" class="merch_link text">
+					<img src="img/box1.jpg" alt="подарочная коробочка1" width="200">
+					<br>
+					Коробочка №1
+				</a>
+			</div>
+			<div class="merch">
+				<a href="catalog/box2.html" class="merch_link text">
+					<img src="img/box2.jpg" alt="подарочная коробочка2" width="200">
+					<br>
+					Коробочка №2
+				</a>
+			</div>
+		</div>
+		
+		<div class="footer">
+			<hr>
+			<p class="text">&copy; Все права защищены</p>
+		</div>
+	</div>
+	
 </body>
 </html>

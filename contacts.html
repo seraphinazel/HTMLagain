@@ -6,30 +6,44 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-	<h1 class="header_common">Контакты</h1>
-	<ul class="menu">
-		<li><a href="index.html">Главная</a></li>
-		<li><a href="catalog.html">Каталог</a></li>
-		<li><a href="contacts.html">Контакты</a></li>
-	</ul>
-	<hr>
-	<h3 class="header_common">Напишите нам!</h1>
-	<form action="#">
-		<input type="text" placeholder="Ваше имя"><br>
-		<input type="email" placeholder="Ваш e-mail"><br>
-		<input type="text" placeholder="Тема"><br>
-		<textarea name="text" cols="30" rows="10" placeholder="Введите сообщение"></textarea><br>
-		<input type="submit"><br>
-		<input type="reset"><br>
-	</form>
-	<h3 class="header_common">Вы можете найти нас:</h3>
-	<ul>
-		<li>Телефон: 222-22-22</li>
-		<li>e-mail: giftbox@giftbox.ru</li>
-		<li>Адрес: до Луны и обратно</li>
-	</ul>
-	<iframe src="https://yandex.ru/map-widget/v1/-/CGt6QYND" width="560" height="400" frameborder="1" allowfullscreen="true"></iframe>
-	<hr>
-	<p>&copy; Все права защищены</p>
+	<div class="container">
+		<div class="header">
+			<div class="logo">
+				<img src="img/logo.png" alt="logo" height="100px">
+			</div>	
+			<br>
+			<h1 class="header_common">Контакты</h1>	
+			<ul class="menu">
+				<li><a href="index.html">Главная</a></li>
+				<li><a href="catalog.html">Каталог</a></li>
+				<li><a href="contacts.html">Контакты</a></li>
+			</ul>
+			<hr>
+		</div>
+
+		<div class="main">
+			<h3 class="header_common">Напишите нам!</h1>
+			<form action="#">
+				<input type="text" placeholder="Ваше имя"><br>
+				<input type="email" placeholder="Ваш e-mail"><br>
+				<input type="text" placeholder="Тема"><br>
+				<textarea name="text" cols="30" rows="10" placeholder="Введите сообщение"></textarea><br>
+				<input type="submit"><br>
+				<input type="reset"><br>
+			</form>
+			<h3 class="header_common">Вы можете найти нас:</h3>
+			<ul class="text">
+				<li>Телефон: 222-22-22</li>
+				<li>e-mail: giftbox@giftbox.ru</li>
+				<li>Адрес: до Луны и обратно</li>
+			</ul>
+			<iframe src="https://yandex.ru/map-widget/v1/-/CGt6QYND" width="560" height="400" frameborder="1" allowfullscreen="true"></iframe>
+		</div>
+		
+		<div class="footer">
+			<hr>
+			<p class="text">&copy; Все права защищены</p>
+		</div>
+	</div>	
 </body>
 </html>

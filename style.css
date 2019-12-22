@@ -6,12 +6,25 @@ body {
 	font-family: 'Arial', sans-serif;
 	font-size: 18px;
 	list-style-type: none;
+	clear: both;
 }
 
 .menu a,
 .merch_link {
 	color: dimgrey;
 	text-decoration: none;
+}
+
+/*Задание п.1*/
+.menu a:hover,
+a.merch_link:hover {
+	color: darkgreen;
+}
+
+/*Задание п.1*/
+.menu a:active,
+a.merch_link:active {
+	color: limegreen;
 }
 
 .merch_headers {
@@ -36,12 +49,15 @@ body {
 	text-align: left;
 }
 
-.merch_composition li {
-	color: #0f5f0f;
+.text {
 	font-size: 15px;
 	font-family: 'Calibri', sans-serif;
+}
+
+.merch_composition li,
+.text li {
 	line-height: 25px;
-	list-style-image: url("img/mandala.png");
+	list-style-image: url("img/logo_mini.png");
 }
 
 input[type="text"],
@@ -56,13 +72,41 @@ input[type="email"] {
 textarea {
 	width: 350px;
 	height: 150px;
+	font-size: 14px;
+	font-style: italic;
 }
 
 .merch_img {
 	outline: 3px solid darkolivegreen;
 }
 
+/*п.7*/
+.merch_img:hover {
+	outline: none;
+}
+
 .header_common {
 	font-family: Arial, sans-serif;
 	color: darkolivegreen;
+	padding-left: 30px;
+}
+
+.logo {
+	float: left;
+}
+
+.menu li {
+	display: inline-block;
+	width: 80px;
+}
+
+/*Задание п.4*/
+input[type="email"]:focus {
+	color: brown;
+	background-color: beige;
+}
+
+input[type="text"]:first-letter,
+textarea:first-letter {
+	text-transform: uppercase;
 }
