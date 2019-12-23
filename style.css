@@ -106,7 +106,27 @@ input[type="email"]:focus {
 	background-color: beige;
 }
 
-input[type="text"]:first-letter,
-textarea:first-letter {
-	text-transform: uppercase;
+/*Задание п.5*/
+input[type="text"],
+textarea{
+	text-transform: capitalize;
+}
+
+table,
+td {
+	border: 2px solid teal;
+	border-collapse: collapse;
+}
+
+/*Задание п.8*/
+p.merch_full_descr:first-letter,
+p.merch_short_descr:first-letter {
+	font-size: 30px;
+	color: darkolivegreen;
+	font-family: Times, serif;
+}
+
+/*Задание п.11*/
+table.test tr:first-child {
+	height: 50px;
 }
